@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Educational Resources Hub</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation Menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">EduCenter</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#categories-section"
+                >Categories</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#about">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="container my-5 bg-light py-5">
+      <div id="introduction" class="mb-5 text-center">
+        <h1 class="text-primary">Welcome to the Educational Resources Hub</h1>
+        <p class="lead text-muted">
+          Find the best resources for your learning journey.
+        </p>
+      </div>
+
+      <div id="featured" class="row">
+        <h2 class="text-center text-success mb-4">Featured Resources</h2>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS27E6kW0hUKOFmft0006Ss-lM-9_bGemmlpGdvqS6pQcNp5LzxCfs_JxmcDfIyqUmLwms&usqp=CAU"
+              class="card-img-top"
+              alt="Resource 1 Image"
+              style="width: 300px; height: 200px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">MERN Web Development</h5>
+              <p class="card-text">
+                Brief description of Resource 1. This resource covers essential
+                topics for beginners.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://www.squash.io/wp-content/uploads/2023/11/javascript-series.jpg"
+              style="width: 300px; height: 200px"
+              class="card-img-top"
+              alt="Resource 2 Image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Javascript</h5>
+              <p class="card-text">
+                Brief description of Resource 2. Learn advanced concepts with
+                this resource.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://miro.medium.com/v2/resize:fit:700/1*3IcLSFuT8PQg4cUBaRXH1A.png"
+              style="width: 300px; height: 200px"
+              class="card-img-top"
+              alt="Resource 3 Image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Python</h5>
+              <p class="card-text">
+                Brief description of Resource 3. Get hands-on practice with this
+                interactive guide.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories-section" class="container my-5 bg-info py-5">
+      <div id="categories" class="mb-5 text-center">
+        <h2 class="text-white">Categories</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h5 class="card-title">Category 1</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h5 class="card-title">Category 2</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h5 class="card-title">Category 3</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="resources" class="mb-5">
+        <h2 class="text-white text-center">Sample Resources</h2>
+        <p class="text-white text-center">
+          Sample resources for different categories.
+        </p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container my-5 bg-light py-5">
+      <div id="mission" class="mb-5 text-center">
+        <h2 class="text-primary">Our Mission</h2>
+        <p class="lead text-muted">
+          To provide quality educational resources accessible to everyone.
+        </p>
+      </div>
+
+      <div id="contact" class="mb-5 text-center">
+        <h2 class="text-success">Contact Us</h2>
+        <p class="text-muted">Email: info@educenter.com</p>
+        <p class="text-muted">Phone: +977-456-7890</p>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
